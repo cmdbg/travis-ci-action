@@ -15,4 +15,5 @@ RUN cd / && npm install
 ADD create-build.js /create-build.js
 ADD entrypoint.sh /entrypoint.sh
 
+RUN chmod +x entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"] 
