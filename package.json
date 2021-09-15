@@ -1,0 +1,22 @@
+{
+    "name": "travis-ci-action",
+    "version": "0.0.1",
+    "description": "Trigger custom TravisCI build from GitHub action",
+    "main": "travis-ci-action",
+    "scripts": {
+        "trigger-build": "node create-build.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/travis-ci/actions.git"
+    },
+    "author": "Valentin Yanakiev",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/cmdbg/travis-ci-action/issues"
+    },
+    "homepage": "https://github.com/cmdbg/travis-ci-action#readme",
+    "dependencies": {
+        "axios": "^0.21.4"
+    }
+}
