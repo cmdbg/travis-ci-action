@@ -1,5 +1,5 @@
 
-import { post } from 'axios'
+import axios from 'axios'
 
 const repository = encodeURIComponent(process.env.TARGET_REPOSITORY)
 
@@ -18,7 +18,7 @@ var body = {
   }
 }
 
-post(`https://api.travis-ci.com/repo/${repository}/requests`, body, { headers: headers })
+axios.post(`https://api.travis-ci.com/repo/${repository}/requests`, body, { headers: headers })
 .then((res) => {
   console.log(`statusCode: ${res.statusCode}`)
   console.log(res)
