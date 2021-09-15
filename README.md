@@ -19,6 +19,7 @@ jobs:
         env:
           TRAVIS_TOKEN: ${{ secrets.TRAVIS_TOKEN }}
           TARGET_REPOSITORY: [GITHUB_SERVER_URL]/[REPO_NAME]
+          TARGET_BRANCH: [TARGET_BRANCH]
 ```
 
 ### Secrets

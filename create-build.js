@@ -13,8 +13,7 @@ var headers = {
 var body = {
   "request": {
     "message": "This should be the commit message",
-    "github server url": `${process.env.GITHUB_SERVER_URL}`,
-    "branch": `${process.env.GITHUB_REF}`
+    "branch": `${process.env.TARGET_BRANCH}`
   }
 }
 
