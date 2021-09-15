@@ -18,5 +18,6 @@
     "homepage": "https://github.com/cmdbg/travis-ci-action#readme",
     "dependencies": {
         "axios": "^0.21.4"
-    }
+    },
+    "type": "module"
 }
